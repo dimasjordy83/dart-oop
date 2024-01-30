@@ -18,18 +18,18 @@ class Mobile {
 }
 
 void main() {
-  stdout.write("Masukkan Nama MObile : ");
+  stdout.write("Masukkan Nama Mobile : ");
   var nama1 = stdin.readLineSync();
-  stdout.write("Masukkan Warna MObile : ");
+  stdout.write("Masukkan Warna Mobile : ");
   var warna1 = stdin.readLineSync();
-  stdout.write("Masukkan Harga MObile : ");
+  stdout.write("Masukkan Harga Mobile : ");
   var harga1 = int.parse(stdin.readLineSync()!);
   print("");
-  stdout.write("Masukkan Nama MObile : ");
+  stdout.write("Masukkan Nama Mobile : ");
   var nama2 = stdin.readLineSync();
-  stdout.write("Masukkan Warna MObile : ");
+  stdout.write("Masukkan Warna Mobile : ");
   var warna2 = stdin.readLineSync();
-  stdout.write("Masukkan Harga MObile : ");
+  stdout.write("Masukkan Harga Mobile : ");
   var harga2 = int.parse(stdin.readLineSync()!);
 
   var mobile1 = Mobile("$nama1", "$warna1", harga1);
