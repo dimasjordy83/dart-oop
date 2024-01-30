@@ -16,9 +16,9 @@ void main() {
   Mobil mobil = Mobil();
   stdout.write("Masukkan Merk Mobil   : ");
   mobil.merk = stdin.readLineSync();
-  stdout.write("Masukkkan Model MObil : ");
+  stdout.write("Masukkkan Model Mobil : ");
   mobil.model = stdin.readLineSync();
-  stdout.write("Masukkan Tahun MObil  : ");
+  stdout.write("Masukkan Tahun Mobil  : ");
   mobil.tahun = int.parse(stdin.readLineSync()!);
   mobil.display();
 }
