@@ -24,14 +24,20 @@ class Employee {
   }
 }
 
-void main() {
-  // Membuat object dari class Employee
-  Employee employee = new Employee();
-  // Memberi nilai ke object menggunakan setter
-  employee.setId(1);
-  employee.setName("John");
+// void main() {
+//   // Membuat object dari class Employee
+//   Employee employee = new Employee();
+//   // Memberi nilai ke object menggunakan setter
+//   employee.setId(1);
+//   employee.setName("John");
 
-  // Menerima nilai dari object menggunakan getter
-  print("Id: ${employee.getId()}");
-  print("Name: ${employee.getName()}");
+//   // Menerima nilai dari object menggunakan getter
+//   print("Id: ${employee.getId()}");
+//   print("Name: ${employee.getName()}");
+// }
+void main() {
+  var employee = Employee();
+  employee._name =
+      "JORDY"; //Bisa berfungsi karena  kata "JORDY" langsung mengisi value dari variabel name sehingga variabel _name mempunyai value
+  print(employee.getName());
 }
